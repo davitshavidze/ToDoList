@@ -72,6 +72,10 @@ input[type="text"]{
 
 ol {
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 li {
@@ -84,13 +88,8 @@ li {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  width: auto;
+  width: 80%;
   height: auto;
-}
-
-li:hover {
-  background-color: rgb(84, 185, 96);
-  transition: background-color 0.5s;
 }
 
 .text {
